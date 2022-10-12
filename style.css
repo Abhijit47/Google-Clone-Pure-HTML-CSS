@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background: #fff;
+}
+
+.herocontainer {
+  height: 100%;
+  /* background-color: darksalmon; */
+  display: flex;
+  justify-content: end;
+  gap: 5px;
+  align-items: center;
+  
+}
+
+.herocontainer,
+.herotopsection,
+.herotopsectiont {
+    content: '';
+    
+  /* border: 2px solid blueviolet; */
+}
+
+.herotopsection {
+  margin: 4px;
+  padding: 10px;
+  
+  /* background-color: aqua; */
+}
+
+.herotopsection a {
+    padding: 10px;
+    text-decoration: none;
+    color: rgba(0,0,0,.87);
+  /* background-color: #1a73e8; */
+}
+
+.herotopsection a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+/* hero section 2 */
+.herotopsectiont {
+  margin: 0px;
+  padding: 10px;
+  /* background-color: aqua; */
+  
+}
+
+.herotopsectiont a {
+    /* padding: 5px; */
+    text-decoration: none;
+}
+
+.herotopsectiont a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#sign{
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #1a73e8;
+    color: #fff;
+}
+
+
+svg .gb_Ue {
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+.gb_A{
+    /* background-color: #1a0dab; */
+    text-decoration: none;
+    margin: 10px;
+    margin-top: 5px;
+}
+
+.gb_A:hover {
+    /* background-color: rgba(60,64,67,.08); */
+    border-radius: 80px;
+    text-decoration: none;
+}
+
+
+
+/* logo section */
+.herologo {
+  margin-top: 180px;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+}
+
+/* search section */
+.searchcontainer {
+  /* background-color: aquamarine; */
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.hiddencontainer {
+  display: flex;
+  justify-content: center;
+  /* background-color: blue; */
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 50px;
+  height: 44px;
+}
+
+.hiddencontainer:hover{
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+
+#site-search {
+  margin-top: 6px;
+  margin-left: 4px;
+  margin-right: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  width: 500px;
+  height: 30px;
+  border: none;
+  outline: none;
+  /* background-color: transparent; */
+  /* overflow: hidden; */
+  /* visibility: hidden; */
+}
+/* button section */
+.buttonsection {
+  /* background-color: blueviolet; */
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 30px;
+}
+
+#btn-one,
+#btn-two {
+  background-color: #f8f9fa;
+  border-radius: 6px;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  width: 150px;
+  cursor: pointer;
+}
+
+#btn-one:hover,
+#btn-two:hover {
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+
+.QCzoEc {
+  /* height: 20px; */
+  /* line-height: 20px; */
+  width: 24px;
+  margin-left: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  color: #9aa0a6;
+}
+/* .z1asCe  */
+/* .MZy1Rb */
+
+.goxjub{
+    /* height: 24px; */
+    width: 24px;
+    margin-right: 10px;
+    /* vertical-align: middle; */
+}
+
+/* Article section */
+#SIvCob{
+    /* background-color: #1a73e8; */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.footersection{
+    background: #f2f2f2;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    margin-top: 160px
+}
+
+.uU7dJb{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #70757a;
+}
+
+.foo-lower{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid #dadce0;
+    color: #70757a;
+}
+
+.lower{
+    padding: 0 20px;
+}
+
+.pHiOh, a.pHiOh {
+    color: #70757a;
+}
+
+.pHiOh {
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+}
+
+a {
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+}
